@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(34, 34, 34);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+main{
+    width: 400px;
+    height: 220px;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+    color: gray;
+}
+form{
+    display: grid;
+    background-color: white;
+    margin-bottom: 20px;
+}
+#dni{
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+input{
+    background-color: white;
+    text-align: center;
+    border: 1px gray solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+button{
+    width: 150px;
+    margin: auto;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+button:hover{
+    width: 150px;
+    margin: auto;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    background-color: gray;
+    box-shadow: inset 0px 0px 26px -9px rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
